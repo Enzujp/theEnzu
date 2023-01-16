@@ -1,0 +1,7 @@
+{% for category in categories %}
+    <a href="{% url 'category_detail' category.slug  %}" class="text-white">{{category.title}}</a>
+{%  endfor %}
+
+<a href="{% url 'about'  %}" class="text-white">About</a>
+<a href="{% url 'signup' %}" class="text-white">Signup</a>
+<a href="{% url 'login' %}" class="text-white">Login</a>
