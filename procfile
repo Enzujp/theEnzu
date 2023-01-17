@@ -1,3 +1,1 @@
-web: npm run start
-# web: gunicorn ecommerce.wsgi --log-file -
-# release: npm run migrate:deploy
+web: gunicorn ecommerce.wsgi --log-file -
